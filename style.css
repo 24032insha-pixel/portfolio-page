@@ -34,7 +34,7 @@ body {
     
 
 }
-a {
+.navbar a {
     color: rgb(253, 108, 188);
     text-decoration: none;
     padding:20px;
@@ -305,13 +305,13 @@ a {
  }
  
 
-
 .contact-section {
     height: 100vh;
     background-color:  rgba(2, 12, 32, 0.938);
     padding: 20px ;
     padding-top: 100px;
     color: rgb(253, 108, 188);
+    
    
     
 }
@@ -324,6 +324,23 @@ a {
     text-align: center;
 }
 
+.contact-main {
+    display: flex;
+    margin-top: 30px;
+}
+.contact-details {
+    width: 50%;
+    font-size: 24px;
+    line-height: 26px;
+}
+.contact-details a {
+        color: rgb(253, 108, 188);
+        text-decoration: none;
+}
+.contact-details a:hover {
+    text-decoration: underline;
+
+}
 .map {
     height: 10vh;
     width: 10%;
